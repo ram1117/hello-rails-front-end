@@ -4,7 +4,7 @@
   <img src="readme-res/personal-logo.svg" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>HelloRails React Readme</b></h3>
+  <h3><b>Hello Rails Front End Readme</b></h3>
 
 </div>
 
@@ -32,27 +32,15 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 HelloRails React <a name="about-project"></a>
+# 📖 Hello Rails Front End <a name="about-project"></a>
 
-**HelloRails React** is a Rails and React application. React frontend is developed in the same application using Webpack. 
+**Hello Rails Front End** is a React application for Hello Rails Back End Rails API only application.
+[The Rails back end](https://github.com/ram1117/hello-rails-back-end) part of this project
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://rubyonrails.org/">Rails</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 <summary>Front End</summary>
   <ul>
     <li><a href="https://react.dev/">React</a></li>
@@ -64,7 +52,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Creates Random quote]**
+- **[Fetches Random quote from Rails Backend API]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -83,8 +71,6 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
   <ul>
-    <li><a href="https://rubyonrails.org/">Rails V 3.0.5 or higher</a></li>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
     <li><a href="https://git-scm.com/">Git</a></li>
     <li><a href="https://github.com/">GitHub account</a></li>
   </ul>
@@ -95,7 +81,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd desired-folder
-  git clone https://github.com/ram1117/hellorails-react
+  git clone https://github.com/ram1117/hello-rails-front-end
 ```
 
 
@@ -104,9 +90,8 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd hellorails-react
-  bundle install
-  yarn install
+  cd hello-rails-front-end
+  npm install
 ```
 
 ### Usage
@@ -114,13 +99,12 @@ Install this project with:
 To run the development server, execute the following command:
 
 ```sh
-  rails server or
-  ./bin/dev
+  npm run start
 ```
 
 ### Deployment
 
-You can deploy this project on Render. Please follow [this render deployment guide](https://render.com/docs/deploy-rails)
+You can deploy this project on Render. Please follow [this render deployment guide](https://render.com/docs/deploy-create-react-app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,7 +134,7 @@ You can deploy this project on Render. Please follow [this render deployment gui
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ram1117/hellorails-react/issues/).
+Feel free to check the [issues page](https://github.com/ram1117/hello-rails-front-end/issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -158,7 +142,7 @@ Feel free to check the [issues page](https://github.com/ram1117/hellorails-react
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, please ⭐️ [the project repo](https://github.com/ram1117/hellorails-react). This will highly motivate me.
+If you like this project, please ⭐️ [the project repo](https://github.com/ram1117/hello-rails-front-end). This will highly motivate me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,7 +150,7 @@ If you like this project, please ⭐️ [the project repo](https://github.com/ra
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-This application is developed based on [this tutorials](https://betterprogramming.pub/react-with-rails-2022-bd28e1fcd355#ad0a). 
+This application is developed based on [this tutorials](https://medium.com/ruby-daily/understanding-cors-when-using-ruby-on-rails-as-an-api-f086dc6ffc41). 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

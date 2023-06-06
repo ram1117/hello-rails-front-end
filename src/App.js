@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
+import Quotes from './components/quotes';
 import './App.css';
 
 function App() {
